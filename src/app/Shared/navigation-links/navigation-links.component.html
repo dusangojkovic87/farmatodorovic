@@ -1,0 +1,22 @@
+<div class="navigation-links-container">
+  <img id="logo" src="/assets/icons/logo.svg" alt="logo.svg" />
+  <img
+    (click)="toggleNavbar()"
+    id="bars"
+    src="/assets/icons/bars.svg"
+    alt="bars.svg"
+  />
+  <nav
+    [ngClass]="
+      navState ? 'nav--background--color--show' : 'nav--background--transparent'
+    "
+  >
+    <ul [ngClass]="navState ? 'show--ul' : 'hide--ul'">
+      <li><a>Početna</a></li>
+      <li><a>O nama</a></li>
+      <li><a>Jaja</a></li>
+      <li><a>Uputstvo</a></li>
+      <li><a>Kontakt</a></li>
+    </ul>
+  </nav>
+</div>
