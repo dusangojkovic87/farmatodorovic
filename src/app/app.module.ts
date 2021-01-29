@@ -9,6 +9,9 @@ import { CardComponent } from './Pages/home/card/card.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { AboutUsComponent } from './Pages/about-us/about-us.component';
 import { OurGoalsCardComponent } from './Pages/about-us/our-goals-card/our-goals-card.component';
+import { EggsComponent } from './Pages/eggs/eggs.component';
+import { ChickeneggsComponent } from './Pages/eggs/chickeneggs/chickeneggs.component';
+import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { OurGoalsCardComponent } from './Pages/about-us/our-goals-card/our-goals
     CardComponent,
     FooterComponent,
     AboutUsComponent,
-    OurGoalsCardComponent
+    OurGoalsCardComponent,
+    EggsComponent,
+    ChickeneggsComponent,
+    QuaileggsComponent
   ],
   imports: [
     BrowserModule,

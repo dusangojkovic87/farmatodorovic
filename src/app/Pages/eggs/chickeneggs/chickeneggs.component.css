@@ -1,0 +1,167 @@
+.chicken-eggs-heading-wrraper{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chicken-eggs-heading-wrraper h1{
+  font-family: "Dancing Script";
+  font-size: 2rem;
+}
+
+.chicken-eggs-container{
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.chicken-eggs-container::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.chicken-eggs-container img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: top;
+}
+
+.text-wrraper-top{
+  position: relative;
+  z-index: 10;
+  width: 80%;
+  background-color:rgba(196, 196, 196, 0.5) ;
+  top: 4rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.text-wrraper-top p{
+  color: white;
+  font-family: "Monserrat";
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.text-wrraper-bottom{
+  position: relative;
+  z-index: 10;
+  width: 80%;
+  background-color:rgba(196, 196, 196, 0.5);
+  top:6rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.text-wrraper-bottom p{
+  font-family: "Monserrat";
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+}
+
+.green--text{
+  color: #AEFF01;
+  font-family: "Monserrat";
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.chicken-ingredient-wrraper{
+  display: flex;
+  justify-content: space-around;
+  height:70px;
+  margin: 1rem;
+  background-color: white;
+}
+
+.ingredient-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+}
+
+.ingredient-item p{
+  margin-left: 1rem;
+  font-family: "Monserrat";
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+}
+
+.ingredient__icon{
+  width: 2rem;
+  height: 2rem;
+}
+
+@media only screen and (max-width:768px){
+  .chicken-ingredients-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .chicken-ingredient-wrraper{
+    flex-direction: column;
+    height: 300px;
+    width: 50%;
+    margin: 0;
+  }
+
+  .ingredient-item{
+    justify-content: center;
+    width:100%;
+    height: 50px;
+  }
+  .ingredient-item p{
+    width:100px !important;
+  }
+}
+
+
+
+@media only screen and (max-width:535px){
+  .chicken-eggs-container{
+    height:550px;
+  }
+}
+
+@media only screen and (max-width:488px){
+  .chicken-eggs-container{
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width:397px){
+  .chicken-eggs-container{
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width:363px){
+  .chicken-eggs-container{
+    height:700px;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .chicken-eggs-container{
+    height:730px;
+  }
+}
+
+
+

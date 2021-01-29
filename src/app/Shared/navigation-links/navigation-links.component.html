@@ -12,9 +12,9 @@
     "
   >
     <ul [ngClass]="navState ? 'show--ul' : 'hide--ul'">
-      <li routerLink=""><a>Početna</a></li>
-      <li routerLink="/o nama"><a>O nama</a></li>
-      <li><a>Jaja</a></li>
+      <li><a routerLink="/pocetna" routerLinkActive="activeNavLink">Početna</a></li>
+      <li><a routerLink="/onama" routerLinkActive="activeNavLink">O nama</a></li>
+      <li><a routerLink="/jaja" routerLinkActive="activeNavLink">Jaja</a></li>
       <li><a>Uputstvo</a></li>
       <li><a>Kontakt</a></li>
     </ul>

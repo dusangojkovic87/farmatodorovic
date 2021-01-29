@@ -12,3 +12,11 @@ html,body{
   font-family: "Dancing Script";
   src: url("assets/fonts/DancingScript-Regular.ttf")
 }
+
+.activeNavLink{
+  color: #83C62F !important;
+}
+
+.activeEggMenu{
+  background-color: #83C62F !important;
+}
