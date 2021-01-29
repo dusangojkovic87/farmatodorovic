@@ -12,6 +12,8 @@ import { OurGoalsCardComponent } from './Pages/about-us/our-goals-card/our-goals
 import { EggsComponent } from './Pages/eggs/eggs.component';
 import { ChickeneggsComponent } from './Pages/eggs/chickeneggs/chickeneggs.component';
 import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
+import { ManualComponent } from './Pages/manual/manual.component';
+import { TableComponent } from './Pages/manual/table/table.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
     OurGoalsCardComponent,
     EggsComponent,
     ChickeneggsComponent,
-    QuaileggsComponent
+    QuaileggsComponent,
+    ManualComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

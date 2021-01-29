@@ -5,16 +5,20 @@ import { ChickeneggsComponent } from './Pages/eggs/chickeneggs/chickeneggs.compo
 import { EggsComponent } from './Pages/eggs/eggs.component';
 import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
 import { HomeComponent } from './Pages/home/home.component';
+import { ManualComponent } from './Pages/manual/manual.component';
 
 const routes: Routes = [
   {path:"",redirectTo:"/pocetna",pathMatch:'full'},
   {path:"pocetna",component:HomeComponent},
-  {path:"onama",component:AboutUsComponent},
+  {path:"onama",component:AboutUsComponent}  ,
   {path:"jaja",component:EggsComponent,children:[
     {path:"",redirectTo:"prepelicija",pathMatch:'full'},
     {path:"prepelicija",component:QuaileggsComponent},
     {path:"kokosija",component:ChickeneggsComponent}
-  ]}
+  ]},
+  {path:"uputstvo",component:ManualComponent}
+
+
 
 ];
 

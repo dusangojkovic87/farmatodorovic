@@ -1,0 +1,38 @@
+table{
+  position: relative;
+  top: 3rem;
+  padding:2rem;
+}
+th{
+  width: 12rem;
+  color: white;
+  font-family: "Monserrat";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+td{
+  border:2px solid grey;
+  text-align: center;
+  color: grey;
+  font-size: 1rem;
+  font-weight: bolder;
+  height: 2rem;
+  border-radius:5px;
+}
+
+.illnes{
+  background-color: rgba(248, 45, 1, 0.7);
+}
+
+.number{
+  background-color: rgba(136, 199, 4, 0.7);
+}
+
+.table-wrraper{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
