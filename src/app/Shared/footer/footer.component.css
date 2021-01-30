@@ -18,11 +18,19 @@
 }
 
 p{
-  margin-left: 1rem;
+  margin-left:1rem;
   color: #504A4A;
   font-family: "Monserrat";
   font-weight: bold;
+  font-size:0.9rem;
 
+}
+
+a{
+  color: #504A4A;
+  font-family: "Monserrat";
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media only screen and (max-width:720px){
@@ -30,6 +38,12 @@ p{
     flex-direction: column;
     justify-content:space-around;
     height:250px;
-
+    align-items: flex-start;
   }
+
+  .footer-item{
+    margin-left: 1rem;
+  }
+
+
 }

@@ -12,13 +12,14 @@ th{
 }
 
 td{
-  border:2px solid grey;
+  border:2px solid white;
   text-align: center;
   color: grey;
   font-size: 1rem;
   font-weight: bolder;
   height: 2rem;
   border-radius:5px;
+  background-color: rgba(181, 212, 122,0.5);
 }
 
 .illnes{

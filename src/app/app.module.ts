@@ -14,6 +14,7 @@ import { ChickeneggsComponent } from './Pages/eggs/chickeneggs/chickeneggs.compo
 import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
 import { ManualComponent } from './Pages/manual/manual.component';
 import { TableComponent } from './Pages/manual/table/table.component';
+import { ContactComponent } from './Pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TableComponent } from './Pages/manual/table/table.component';
     ChickeneggsComponent,
     QuaileggsComponent,
     ManualComponent,
-    TableComponent
+    TableComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

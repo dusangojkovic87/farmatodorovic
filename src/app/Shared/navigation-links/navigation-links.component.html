@@ -3,7 +3,7 @@
   <img
     (click)="toggleNavbar()"
     id="bars"
-    src="/assets/icons/bars.svg"
+    [src]="navState === true ? close : bars"
     alt="bars.svg"
   />
   <nav
@@ -12,11 +12,19 @@
     "
   >
     <ul [ngClass]="navState ? 'show--ul' : 'hide--ul'">
-      <li><a routerLink="/pocetna" routerLinkActive="activeNavLink">Početna</a></li>
-      <li><a routerLink="/onama" routerLinkActive="activeNavLink">O nama</a></li>
+      <li>
+        <a routerLink="/pocetna" routerLinkActive="activeNavLink">Početna</a>
+      </li>
+      <li>
+        <a routerLink="/onama" routerLinkActive="activeNavLink">O nama</a>
+      </li>
       <li><a routerLink="/jaja" routerLinkActive="activeNavLink">Jaja</a></li>
-      <li><a routerLink="/uputstvo" routerLinkActive="activeNavLink">Uputstvo</a></li>
-      <li><a>Kontakt</a></li>
+      <li>
+        <a routerLink="/uputstvo" routerLinkActive="activeNavLink">Uputstvo</a>
+      </li>
+      <li>
+        <a routerLink="/kontakt" routerLinkActive="activeNavLink">Kontakt</a>
+      </li>
     </ul>
   </nav>
 </div>

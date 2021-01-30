@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './Pages/about-us/about-us.component';
+import { ContactComponent } from './Pages/contact/contact.component';
 import { ChickeneggsComponent } from './Pages/eggs/chickeneggs/chickeneggs.component';
 import { EggsComponent } from './Pages/eggs/eggs.component';
 import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
     {path:"prepelicija",component:QuaileggsComponent},
     {path:"kokosija",component:ChickeneggsComponent}
   ]},
-  {path:"uputstvo",component:ManualComponent}
+  {path:"uputstvo",component:ManualComponent},
+  {path:"kontakt",component:ContactComponent}
 
 
 

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationLinksComponent implements OnInit {
  navState:boolean = false;
+ bars:string = "/assets/icons/bars.svg";
+ close:string = "/assets/icons/close.svg"
 
   constructor() { }
 
@@ -15,10 +17,7 @@ export class NavigationLinksComponent implements OnInit {
 
   toggleNavbar(){
     this.navState = !this.navState;
-    console.log(this.navState);
-
   }
-
 
 
 }
