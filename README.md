@@ -19,7 +19,6 @@
 <img src="./Screenshots/Slika9.jpg" />
 <h1>*Screenshot number 10/h1>
 <img src="./Screenshots/Slika10.jpg" />
-<h1>*Screenshot number 11/h1>
-<img src="./Screenshots/Slika11.jpg" />
+
 
 
