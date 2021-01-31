@@ -1,27 +1,25 @@
 # Farmatodorovic
+<h1>*Screenshot number 1</h1>
+<img src="./Screenshots/slika1.jpg" />
+<h1>*Screenshot number 2</h1>
+<img src="./Screenshots/Slika2.jpg" />
+<h1>*Screenshot number 3</h1>
+<img src="./Screenshots/Slika3.jpg" />
+<h1>*Screenshot number 4</h1>
+<img src="./Screenshots/Slika4.jpg" />
+<h1>*Screenshot number 5</h1>
+<img src="./Screenshots/Slika5.jpg" />
+<h1>*Screenshot number 6</h1>
+<img src="./Screenshots/Slika6.jpg" />
+<h1>*Screenshot number 7</h1>
+<img src="./Screenshots/Slika7.jpg" />
+<h1>*Screenshot number 8</h1>
+<img src="./Screenshots/Slika8.jpg" />
+<h1>*Screenshot number 9</h1>
+<img src="./Screenshots/Slika9.jpg" />
+<h1>*Screenshot number 10/h1>
+<img src="./Screenshots/Slika10.jpg" />
+<h1>*Screenshot number 11/h1>
+<img src="./Screenshots/Slika11.jpg" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
