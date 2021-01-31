@@ -13,17 +13,49 @@
   >
     <ul [ngClass]="navState ? 'show--ul' : 'hide--ul'">
       <li>
-        <a routerLink="/pocetna" routerLinkActive="activeNavLink">Početna</a>
+        <a
+          routerLink="/pocetna"
+          routerLinkActive="activeNavLink"
+          appClosenavbar
+          (closeNavbar)="closeNavbar($event)"
+          >Početna</a
+        >
       </li>
       <li>
-        <a routerLink="/onama" routerLinkActive="activeNavLink">O nama</a>
+        <a
+          routerLink="/onama"
+          routerLinkActive="activeNavLink"
+          appClosenavbar
+          (closeNavbar)="closeNavbar($event)"
+          >O nama</a
+        >
       </li>
-      <li><a routerLink="/jaja" routerLinkActive="activeNavLink">Jaja</a></li>
       <li>
-        <a routerLink="/uputstvo" routerLinkActive="activeNavLink">Uputstvo</a>
+        <a
+          routerLink="/jaja"
+          routerLinkActive="activeNavLink"
+          appClosenavbar
+          (closeNavbar)="closeNavbar($event)"
+          >Jaja</a
+        >
       </li>
       <li>
-        <a routerLink="/kontakt" routerLinkActive="activeNavLink">Kontakt</a>
+        <a
+          routerLink="/uputstvo"
+          routerLinkActive="activeNavLink"
+          appClosenavbar
+          (closeNavbar)="closeNavbar($event)"
+          >Uputstvo</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/kontakt"
+          routerLinkActive="activeNavLink"
+          appClosenavbar
+          (closeNavbar)="closeNavbar($event)"
+          >Kontakt</a
+        >
       </li>
     </ul>
   </nav>

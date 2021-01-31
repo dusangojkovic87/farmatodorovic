@@ -19,5 +19,9 @@ export class NavigationLinksComponent implements OnInit {
     this.navState = !this.navState;
   }
 
+  closeNavbar(event:boolean){
+    this.navState = event;
+  }
+
 
 }

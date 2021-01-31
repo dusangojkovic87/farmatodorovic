@@ -15,6 +15,7 @@ import { QuaileggsComponent } from './Pages/eggs/quaileggs/quaileggs.component';
 import { ManualComponent } from './Pages/manual/manual.component';
 import { TableComponent } from './Pages/manual/table/table.component';
 import { ContactComponent } from './Pages/contact/contact.component';
+import { ClosenavbarDirective } from './Shared/directives/closenavbar.directive';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactComponent } from './Pages/contact/contact.component';
     QuaileggsComponent,
     ManualComponent,
     TableComponent,
-    ContactComponent
+    ContactComponent,
+    ClosenavbarDirective
   ],
   imports: [
     BrowserModule,
