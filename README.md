@@ -17,7 +17,7 @@
 <img src="./Screenshots/Slika8.jpg" />
 <h1>*Screenshot number 9</h1>
 <img src="./Screenshots/Slika9.jpg" />
-<h1>*Screenshot number 10/h1>
+<h1>*Screenshot number 10</h1>
 <img src="./Screenshots/Slika10.jpg" />
 
 
